@@ -66,7 +66,10 @@ Your final code should print the analysis to the console.
 
 ### Deployment: 
 
-
 * The URL of the deployed application.
 
+https://aftabahmad888.github.io/console_finances/
+
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+
+https://github.com/aftabahmad888/console_finances
