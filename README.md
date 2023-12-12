@@ -1,36 +1,53 @@
 # console_finances
 This is Financial analysis tool.
 
-# Unit 4 Challenge: Console Finances
-
 ## Overview
 
-In this challenge, you'll be using the concepts you've learned to complete the required activity. This activity presents a real-world situation in which your newfound JavaScript skills will come in handy. You are tasked with creating code for analyzing the financial records of a company. You have been provided with a financial dataset in the `starter/index.js` file.
+I have created the financial analysing tool by writing the  code for analyzing the financial records of a company. I have written this code by using the dataset provided in this `starter/index.js` file.
 
-## Instructions
+## Instructions and completion of tasks:
 
 1. Create a new GitHub repo called `Console-Finances`. Then, clone it to your computer.
+### I have Create a new GitHub repo called `console_finances`. Then, cloned it to my computer.
 
 2. Copy the starter files in your local git repository.
+### I have copied the starter files in my local git repository.
 
-You have been given a dataset composed of arrays with two fields, Date and Profit/Losses.
 
-Your task is to write JavaScript code that analyzes the records to calculate each of the following:
+
+3. Your task is to write JavaScript code that analyzes the records to calculate each of the following:
 
 * The total number of months included in the dataset.
+### I have written the code in index.js file, which shows the total of months in console of browser.
+![code can be seen below for the total count of months](./images/Total_Months.jpg)
+
 
 * The net total amount of Profit/Losses over the entire period.
+###  I have written the code in index.js file, which shows the total amount of Profit/Losses over the entire period in which can be seen in console of browser.
+![code can be seen below for the total amount of Profit/Losses over the entire period](./images/Net_profit_lose.jpg)
 
-* The average of the **changes** in Profit/Losses over the entire period.
-  * You will need to track what the total change in Profit/Losses are from month to month and then find the average.
-  * (`Total/(Number of months - 1)`)
+
+
+* The average of the changes in Profit/Losses over the entire period. You will need to track what the total change in Profit/Losses are from month to month and then find the average. (`Total/(Number of months - 1)`
+### I have written the code in index.js file, which shows verage of the **changes** in Profit/Losses over the entire period which can be seen in console of browser.
+![code can be seen below for the average of changes.](./images/average.jpg)
+
+
 
 * The greatest increase in Profit/Losses (date and amount) over the entire period.
+### I have written the code in index.js file, which shows the greatest increase in Profit/Losses (date and amount) over the entire period which can be seen in console of browser.
+![code can be seen below for the increase of amount and it's date](./images/increase_of_profit_lose.jpg)
+
+
 
 * The greatest decrease in Profit/Losses (date and amount) over the entire period.
+### I have written the code in index.js file, which shows the greatest decrease in Profit/Losses (date and amount) over the entire period which can be seen in console of browser.
+![code can be seen below for the decrease of amount and it's date](./images/decrease_of_profit_lose.jpg)
 
-When you open your code in the browser your resulting analysis should look similar to the following:
 
+
+
+4. When you open your code in the browser your resulting analysis should look similar to the following:
   ```text
   Financial Analysis 
   ----------------
@@ -40,54 +57,15 @@ When you open your code in the browser your resulting analysis should look simil
   Greatest Increase in Profits/Losses: Feb-2012 ($1926159)
   Greatest Decrease in Profits/Losses: Sep-2013 ($-2196167)
   ```
-
 Your final code should print the analysis to the console.
-
+### My final code shows the same results.
+![Results can be seen in the image below](./images/console.jpg)
 **Hints:**
 
-* You will need to do some research on your own for this project!
 
-* Remember, in order to combine strings and variables in the console you will need to use **concatenation**.
 
-* How do you only print to the nearest 100th in JavaScript?
+### Deployment: 
 
-## Grading Requirements
-
-This homework is graded based on the following criteria:
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Repository Quality: 23%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for variable naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-### Application Quality: 5%
-
-* Application resembles the mock-up functionality provided in the Challenge instructions.
-
-## Review
-
-You are required to submit BOTH of the following for review:
 
 * The URL of the deployed application.
 
