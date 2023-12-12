@@ -108,8 +108,7 @@ for (var i = 0; i < finances.length; i++) {
   }
   var net = profit+lose;
 }
-console.log("Net profit is " + profit);
-console.log("Net lose is " + lose);
+
 console.log("Net profit/lose is "+ net);
 
 
@@ -129,3 +128,47 @@ for (var i = 1; i < finances.length; i++) {
 /*  Average */
 var average = total_difference / change_count;
 console.log("Average Change in Profit/Losses: " + average);
+
+//#The greatest increase in Profit/Losses (date and amount) over the entire period.
+
+var amount_increase = 0;
+var amount_increase_date = 0;
+
+
+for (var i = 1; i < finances.length; i++) {
+  let recent_amount = finances[i][1];
+  let previous_amount = finances[i - 1][1];
+
+  // Calculation of the change
+  let change = recent_amount - previous_amount;
+  if (change > amount_increase) {
+    amount_increase = change;
+    amount_increase_date = finances[i][0]; 
+  }
+}
+console.log("Greatest Increase in Profit/Losses:");
+console.log("Date: " + amount_increase);
+console.log("Amount: " + amount_increase_date);
+
+
+//#The greatest decrease in Profit/Losses (date and amount) over the entire period.
+
+
+var amount_decrease = 0;
+var amount_decrease_date = 0;
+
+
+for (var i = 1; i < finances.length; i++) {
+  let recent_amount = finances[i][1];
+  let previous_amount = finances[i - 1][1];
+
+  // Calculation of the change
+  let change = recent_amount - previous_amount;
+  if (change < amount_decrease) {
+    amount_decrease = change;
+    amount_decrease_date = finances[i][0]; 
+  }
+}
+console.log("Greatest decrease in Profit/Losses:");
+console.log("Date: " + amount_decrease);
+console.log("Amount: " + amount_decrease_date);
